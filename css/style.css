@@ -7,22 +7,27 @@
 /* general rules */
 body{
     width: 512px;
+    border: 2px lightgrey dashed;
 }
 
 header{
     padding: 10px;
 }
 
-main{
+.container{
     border-top: 2px black solid;
     border-bottom: 2px black solid;
 }
 
 /* cards */
-div{
+.card{
     border: 2px black solid;
     width: 450px;
-    min-height: 150px;
+    min-height: 140px;
     margin: 20px auto;
     padding: 20px 10px;
+}
+
+footer{
+    padding: 10px;
 }
